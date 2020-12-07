@@ -1,0 +1,20 @@
+title: Universal
+baseURL: /
+params:
+  logo: images/logo.svg
+  docs_url: 'https://docs.stackbit.com'
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 1
+  secondary:
+    - identifier: about
+      name: About
+      url: about
+      weight: 1
+disableKinds:
+  - RSS
+  - taxonomy
+  - taxonomyTerm
